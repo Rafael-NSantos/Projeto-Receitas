@@ -183,3 +183,194 @@ body {
     }
 
 }
+.posts {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    justify-content: center;
+    background: #f2f2f2;
+}
+
+.post-card {
+    width: 400px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.post-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Avatar redondo */
+.autor {
+    position: absolute;
+    bottom: 120px;
+    left: 20px;
+}
+
+.autor img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+/* Conteúdo */
+.post-info {
+    padding: 20px;
+}
+
+.data {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.post-info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.post-info span {
+    color: #555;
+    font-size: 14px;
+}
+.receitas-extra {
+    padding: 40px;
+    text-align: center;
+}
+
+
+.cards-baixo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+
+.card-baixo {
+    width: 250px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card-baixo img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.nivel {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff6b6b;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.nivel.medio {
+    background: #f4c542;
+}
+
+.card-baixo h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.card-baixo p {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+/* Botão laranja */
+.btn-receitas {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-receitas:hover {
+    background: #e65c00;
+}
+
+.linha-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.linha {
+    flex: 1;
+    height: 1px;
+    background: #ccc;
+}
+
+/* Botão */
+.btn-receitas {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.btn-receitas:hover {
+    background: #e65c00;
+}
+
+.card-baixo {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+
+.card-baixo img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.card-baixo:hover img {
+    transform: scale(1.1);
+}
+.post-card {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.post-img {
+    transition: transform 0.4s ease;
+}
+
+.post-card:hover .post-img {
+    transform: scale(1.1);
+}
