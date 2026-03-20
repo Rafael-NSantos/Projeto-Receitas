@@ -96,13 +96,14 @@ body {
 
 /* MENU */
 .header-navbar {
-    margin-top: 90px;
+    margin-top: 95px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 25px;
     padding: 12px;
     background: #fff;
-    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
     flex-wrap: wrap;
 }
 
@@ -115,11 +116,13 @@ body {
 
 .header-navbar a:hover {
     color: #fc6b03;
+    transform: scale(1.1);
 }
 
 .header-navbar .active {
     color: #fc6b03;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 /* RESPONSIVO */
