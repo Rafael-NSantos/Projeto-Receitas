@@ -133,6 +133,7 @@ body {
     height: 180px;
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 
 .card-content{
@@ -187,12 +188,16 @@ body {
     display: flex;
     gap: 30px;
     padding: 40px;
+    margin-top: 50px;
+    height: 400px;
     justify-content: center;
+    align-items: center;
     background: #f2f2f2;
 }
 
 .post-card {
     width: 400px;
+    height: 310px;
     background: #fff;
     border-radius: 12px;
     overflow: hidden;
@@ -373,4 +378,63 @@ body {
 
 .post-card:hover .post-img {
     transform: scale(1.1);
+}
+
+.noticias {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.noticias h2{
+    margin: 40px;
+    color: #e65c00;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.noticias .noticias-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.noticias .noticias-content .content-not {
+    width: 800px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.content-not img{
+    width: 240px;
+    object-fit: cover;
+}
+
+.content-textos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.content-textos .data{
+    color: gray;
+    font-size: 0.8rem;
+    
+}
+
+.content-textos .assunto-principal{
+    color: gray;
+    font-size: 1rem;
+
+}
+
+.content-textos .comentario{
+    font-size: 0.8rem;
+    color: gray;
 }
