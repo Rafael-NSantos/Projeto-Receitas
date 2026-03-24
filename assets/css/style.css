@@ -382,6 +382,7 @@ body {
 
 .noticias {
     width: 1000px;
+    margin: 0 auto; /*aqui deixa as noticia no centralizada*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -393,6 +394,7 @@ body {
     color: #e65c00;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
 }
 
 .noticias .noticias-content{
@@ -437,4 +439,104 @@ body {
 .content-textos .comentario{
     font-size: 0.8rem;
     color: gray;
+}
+
+.footer {
+    background: #eee;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* LOGO */
+.logo-footer {
+    color: #ff6600;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* LINHA */
+.linha-footer {
+    width: 60%;
+    height: 1px;
+    background: #999;
+    margin: 20px auto;
+}
+
+/* TEXTO */
+.grupo {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.webedia .textos {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* REDES */
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.redes i {
+    width: 45px;
+    height: 45px;
+    background: #333;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.redes i:hover {
+    background: #ff6600;
+}
+
+
+.apps-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+/* LINKS */
+.links-footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.links-footer a {
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+}
+
+.links-footer a:hover {
+    color: #ff6600;
 }
